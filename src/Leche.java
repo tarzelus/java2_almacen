@@ -10,17 +10,17 @@ private Distribuidor distribuidor;
 
 public String getTipo()
 		{
-			return Tipo;
+			return tipo;
 		}
 		
-		public void  setTipo(String tipo)
+		public void  setTipo(String tipo1)
 		{
 			tipo=tipo1;
 		}
 
 		public String getProcedencia()
 		{
-			return Procedencia;
+			return procedencia;
 		}
 		
 		public void  setProcedencia(String procedencia1)
@@ -30,19 +30,19 @@ public String getTipo()
 
 		
 
-		public int getEurosLitro()
+		public Double getEurosLitro()
 		{
-			return EurosLitro;
+			return eurosLitro;
 		}
 		
-		public void  setEurosLitro(int eurosLitro1)
+		public void  setEurosLitro(Double eurosLitro1)
 		{
 			eurosLitro=eurosLitro1;
 		}
 
 		public Distribuidor getDistribuidor()
 		{
-			return Distribuidor;
+			return distribuidor;
 		}
 		
 		public void  setDistribuidor(Distribuidor distribuidor1)

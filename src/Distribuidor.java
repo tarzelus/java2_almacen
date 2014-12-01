@@ -6,9 +6,10 @@ public class Distribuidor {
 	private Contacto personaContacto;
 
 //metodos getter y setter
+
 	public String getNombre()
 			{
-				return Nombre;
+				return nombre;
 			}
 			
 			public void  setNombre(String nombre1)
@@ -18,7 +19,7 @@ public class Distribuidor {
 
 	public String getCif()
 			{
-				return Cif;
+				return cif;
 			}
 			
 			public void  setCif(String cif1)
@@ -29,18 +30,18 @@ public class Distribuidor {
 
 	public Direccion getDireccion()
 			{
-				return Direccion;
+				return direccion;
 			}
 			
-			public void  setDireccion(Direccion dirección1)
+			public void  setDireccion(Direccion direccion1)
 			{
-				direccion1=direccion1;
+				direccion=direccion1;
 			}
 
 
 	public Contacto getPersonaContacto()
 			{
-				return PersonaContacto;
+				return personaContacto;
 			}
 			
 			public void  setPersonaContacto(Contacto personaContacto1)

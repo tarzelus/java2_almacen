@@ -10,7 +10,7 @@ public class Manzana {
 
 	public String getTipoManzana()
 		{
-			return TipoManzana;
+			return tipoManzana;
 		}
 		
 	public void  setTipoManzana(String tipoManzana1)
@@ -20,7 +20,7 @@ public class Manzana {
 
 	public String getProcedencia()
 		{
-			return Procedencia;
+			return procedencia;
 		}
 		
 	public void  setProcedencia(String procedencia1)
@@ -30,7 +30,7 @@ public class Manzana {
 
 	public String getColor()
 		{
-			return Color;
+			return color;
 		}
 		
 	public void  setColor(String color1)
@@ -38,19 +38,19 @@ public class Manzana {
 			color=color1;
 		}
 
-	public int getEurosKilo()
+	public Double getEurosKilo()
 		{
-			return EurosKilo;
+			return eurosKilo;
 		}
 		
-	public void  setEurosKilo(int eurosKilo1)
+	public void  setEurosKilo(Double eurosKilo1)
 		{
 			eurosKilo=eurosKilo1;
 		}
 
 	public Distribuidor getDistribuidor()
 		{
-			return Distribuidor;
+			return distribuidor;
 		}
 		
 	public void  setDistribuidor(Distribuidor distribuidor1)

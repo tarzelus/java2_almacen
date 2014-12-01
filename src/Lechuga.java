@@ -11,7 +11,7 @@ private Distribuidor distribuidor;
 
 public String getTipoLechuga()
 		{
-			return TipoLechuga;
+			return tipoLechuga;
 		}
 		
 		public void  setTipoLechuga(String tipoLechuga1)
@@ -21,7 +21,7 @@ public String getTipoLechuga()
 
 		public String getProcedencia()
 		{
-			return Procedencia;
+			return procedencia;
 		}
 		
 		public void  setProcedencia(String procedencia1)
@@ -31,7 +31,7 @@ public String getTipoLechuga()
 
 		public String getColor()
 		{
-			return Color;
+			return color;
 		}
 		
 		public void  setColor(String color1)
@@ -39,19 +39,19 @@ public String getTipoLechuga()
 			color=color1;
 		}
 
-		public int getEurosUniad()
+		public Double getEurosUniad()
 		{
-			return EurosUnidad;
+			return eurosUnidad;
 		}
 		
-		public void  setEurosUnidad(int eurosUnidad1)
+		public void  setEurosUnidad(Double eurosUnidad1)
 		{
 			eurosUnidad=eurosUnidad1;
 		}
 
 		public Distribuidor getDistribuidor()
 		{
-			return Distribuidor;
+			return distribuidor;
 		}
 		
 		public void  setDistribuidor(Distribuidor distribuidor1)
