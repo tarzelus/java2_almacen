@@ -18,6 +18,15 @@ public class Contacto {
 	public void setApellido(String apellido1) {
 		apellido = apellido1;
 	}
+
+	public String getDni() {
+		return dni;
+	}
+	public void setDni(String dni1) {
+		dni = dni1;
+	}
+
+
 	
 	public String getEmail() {
 		return email;

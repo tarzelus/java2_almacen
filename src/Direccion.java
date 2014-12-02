@@ -22,7 +22,7 @@ public class Direccion {
 	public int getPortal() {
 		return portal;
 	}
-	public void setNumero(int portal1) {
+	public void setPortal(int portal1) {
 		portal = portal1;
 	}
 
